@@ -1,0 +1,97 @@
+2020-04-30 12:44:05.398  INFO 9540 --- [restartedMain] i.a.demoapp.api.album.AlbumApplication   : No active profile set, falling back to default profiles: default
+2020-04-30 12:44:06.403  WARN 9540 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'bus-env' contains invalid characters, please migrate to a valid format.
+2020-04-30 12:44:06.693  INFO 9540 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-30 12:44:06.719  INFO 9540 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11ms. Found 0 JPA repository interfaces.
+2020-04-30 12:44:06.831  WARN 9540 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'bus-refresh' contains invalid characters, please migrate to a valid format.
+2020-04-30 12:44:06.982  WARN 9540 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-04-30 12:44:07.289  INFO 9540 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c256227f-9a89-375d-9c3c-3ac6564283cb
+2020-04-30 12:44:07.533  INFO 9540 --- [restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2020-04-30 12:44:07.540  INFO 9540 --- [restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2020-04-30 12:44:07.544  INFO 9540 --- [restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2020-04-30 12:44:07.862  INFO 9540 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-30 12:44:07.866  INFO 9540 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-30 12:44:07.894  INFO 9540 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-30 12:44:09.049  INFO 9540 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2020-04-30 12:44:09.056  INFO 9540 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-30 12:44:09.056  INFO 9540 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-30 12:44:09.336  INFO 9540 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-30 12:44:09.337  INFO 9540 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3921 ms
+2020-04-30 12:44:09.444  WARN 9540 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-04-30 12:44:09.444  INFO 9540 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-30 12:44:09.460  INFO 9540 --- [restartedMain] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@27fa0ed
+2020-04-30 12:44:09.543  INFO 9540 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-04-30 12:44:10.216  INFO 9540 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-04-30 12:44:10.229  INFO 9540 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://35.203.4.209:3306/spring-rest-microservice?serverTimezone=UTC'
+2020-04-30 12:44:12.020  INFO 9540 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2020-04-30 12:44:12.341  INFO 9540 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-30 12:44:12.452  INFO 9540 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-30 12:44:12.638  INFO 9540 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-30 12:44:12.850  INFO 9540 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-30 12:44:13.097  INFO 9540 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-30 12:44:13.105  INFO 9540 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-30 12:44:13.130  WARN 9540 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-04-30 12:44:13.134  INFO 9540 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-30 12:44:13.203  WARN 9540 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-30 12:44:13.392  INFO 9540 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-30 12:44:13.828  INFO 9540 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-04-30 12:44:13.836  INFO 9540 --- [restartedMain] onConfiguration$FunctionBindingRegistrar : Functional binding is disabled due to the presense of @EnableBinding annotation in your configuration
+2020-04-30 12:44:14.241  WARN 9540 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-04-30 12:44:15.803  INFO 9540 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2020-04-30 12:44:15.891  WARN 9540 --- [restartedMain] ockingLoadBalancerClientRibbonWarnLogger : You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-04-30 12:44:15.965  INFO 9540 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-04-30 12:44:16.063  INFO 9540 --- [restartedMain] o.s.c.s.m.DirectWithAttributesChannel    : Channel 'album-api-1.springCloudBusInput' has 1 subscriber(s).
+2020-04-30 12:44:16.097  INFO 9540 --- [restartedMain] o.s.i.endpoint.EventDrivenConsumer       : Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-04-30 12:44:16.098  INFO 9540 --- [restartedMain] o.s.i.channel.PublishSubscribeChannel    : Channel 'album-api-1.errorChannel' has 1 subscriber(s).
+2020-04-30 12:44:16.098  INFO 9540 --- [restartedMain] o.s.i.endpoint.EventDrivenConsumer       : started bean '_org.springframework.integration.errorLogger'
+2020-04-30 12:44:17.757  INFO 9540 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8012
+2020-04-30 12:44:19.811  INFO 9540 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=album-api, profiles=[default], label=null, version=75c194bf40cbd21c755531d7b6cdc54933ba519b, state=null
+2020-04-30 12:44:19.811  INFO 9540 --- [restartedMain] b.c.PropertySourceBootstrapConfiguration : Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/Ao99/spring-rest-microservice-config/album-api.properties'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/Ao99/spring-rest-microservice-config/application.properties'}]
+2020-04-30 12:44:20.194  INFO 9540 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2020-04-30 12:44:20.260  INFO 9540 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#70451e49:0/SimpleConnection@56533214 [delegate=amqp://admin@127.0.0.1:5672/, localPort= 52140]
+2020-04-30 12:44:20.319  INFO 9540 --- [restartedMain] o.s.c.s.m.DirectWithAttributesChannel    : Channel 'album-api-1.springCloudBusOutput' has 1 subscriber(s).
+2020-04-30 12:44:20.370  INFO 9540 --- [restartedMain] c.s.b.r.p.RabbitExchangeQueueProvisioner : declaring queue for inbound: springCloudBus.anonymous.e3tzs7cNTRGP1_CyOtinXg, bound to: springCloudBus
+2020-04-30 12:44:20.398  INFO 9540 --- [restartedMain] o.s.c.stream.binder.BinderErrorChannel   : Channel 'springCloudBus.anonymous.e3tzs7cNTRGP1_CyOtinXg.errors' has 1 subscriber(s).
+2020-04-30 12:44:20.401  INFO 9540 --- [restartedMain] o.s.c.stream.binder.BinderErrorChannel   : Channel 'springCloudBus.anonymous.e3tzs7cNTRGP1_CyOtinXg.errors' has 2 subscriber(s).
+2020-04-30 12:44:20.419  INFO 9540 --- [restartedMain] o.s.i.a.i.AmqpInboundChannelAdapter      : started bean 'inbound.springCloudBus.anonymous.e3tzs7cNTRGP1_CyOtinXg'
+2020-04-30 12:44:20.478  INFO 9540 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 52141 (http) with context path ''
+2020-04-30 12:44:20.480  INFO 9540 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 52141
+2020-04-30 12:44:20.489  INFO 9540 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2020-04-30 12:44:20.539  INFO 9540 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2020-04-30 12:44:20.639  INFO 9540 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2020-04-30 12:44:20.639  INFO 9540 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2020-04-30 12:44:20.822  INFO 9540 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2020-04-30 12:44:20.823  INFO 9540 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2020-04-30 12:44:21.070  INFO 9540 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-04-30 12:44:21.456  INFO 9540 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2020-04-30 12:44:21.457  INFO 9540 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2020-04-30 12:44:21.457  INFO 9540 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2020-04-30 12:44:21.457  INFO 9540 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2020-04-30 12:44:21.457  INFO 9540 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2020-04-30 12:44:21.457  INFO 9540 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2020-04-30 12:44:21.458  INFO 9540 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2020-04-30 12:44:21.651  INFO 9540 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2020-04-30 12:44:21.656  INFO 9540 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 15
+2020-04-30 12:44:21.659  INFO 9540 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-04-30 12:44:21.667  INFO 9540 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1588265061665 with initial instances count: 3
+2020-04-30 12:44:21.675  INFO 9540 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ALBUM-API with eureka with status UP
+2020-04-30 12:44:21.676  INFO 9540 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1588265061676, current=UP, previous=STARTING]
+2020-04-30 12:44:21.694  INFO 9540 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ALBUM-API/album-api:e99d46ee5c6fa82f9d3d9056b6c1be31: registering service...
+2020-04-30 12:44:21.741  INFO 9540 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ALBUM-API/album-api:e99d46ee5c6fa82f9d3d9056b6c1be31 - registration status: 204
+2020-04-30 12:44:23.362  INFO 9540 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2020-04-30 12:44:23.367  INFO 9540 --- [restartedMain] i.a.demoapp.api.album.AlbumApplication   : Started AlbumApplication in 24.983 seconds (JVM running for 26.274)
+2020-04-30 12:44:32.605  INFO 9540 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-30 12:44:32.605  INFO 9540 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-30 12:44:32.619  INFO 9540 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2020-04-30 12:49:21.462  INFO 9540 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-04-30 12:54:21.465  INFO 9540 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-04-30 12:59:21.467  INFO 9540 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-04-30 13:04:21.469  INFO 9540 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-04-30 13:09:21.471  INFO 9540 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-04-30 13:14:21.475  INFO 9540 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-04-30 13:19:21.478  INFO 9540 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-04-30 13:24:21.480  INFO 9540 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-04-30 13:29:21.483  INFO 9540 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-04-30 13:34:21.485  INFO 9540 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-04-30 13:39:21.486  INFO 9540 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-04-30 13:44:21.489  INFO 9540 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-04-30 13:49:21.490  INFO 9540 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
