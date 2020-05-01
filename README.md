@@ -21,4 +21,5 @@ Feign, Hystrix, Sleuth, Zipkin.
 Elasticsearch, Logstash, Kibana
 
 ## Deployment
+AWS EC2, Docker
 
