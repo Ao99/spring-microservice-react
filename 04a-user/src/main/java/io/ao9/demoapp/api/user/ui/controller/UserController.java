@@ -40,9 +40,7 @@ public class UserController {
         return "working on port "
                 + env.getProperty("local.server.port")
                 + "\nip: " 
-                + request.getRemoteAddr()
-                + "\ntoken secret: "
-                + env.getProperty("token.secret");
+                + request.getRemoteAddr();
     }
 
     @GetMapping(
