@@ -21,8 +21,12 @@ public class WebSecurityProduction extends WebSecurityConfigurerAdapter {
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
+        String ip1 = env.getProperty("gateway.ip");
+        String ip2 = env.getProperty("user-api.ip");
+        String combination = "hasIpAddress('" + ip1 + "') or hasIpAddress('" + ip2 + "')";
+
         http.authorizeRequests()
-                .anyRequest().hasIpAddress(env.getProperty("gateway.ip"));
+                .anyRequest().access(combination);
                 
         http.headers().frameOptions().disable();
         http.csrf().disable();
