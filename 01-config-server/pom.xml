@@ -10,9 +10,9 @@
 	</parent>
 
 	<groupId>io.ao9.demoapp.api</groupId>
-	<artifactId>config-server</artifactId>
+	<artifactId>flow-config-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>config-server</name>
+	<name>flow-config-server</name>
 	<description>Spring Cloud Config Server for Flow App</description>
 
 	<properties>
