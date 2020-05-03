@@ -10,13 +10,13 @@
 	</parent>
 	
 	<groupId>io.ao9.demoapp.api</groupId>
-	<artifactId>album</artifactId>
+	<artifactId>flow-album-api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>album</name>
-	<description>Album Microservice for Demo App</description>
+	<name>flow-album-api</name>
+	<description>Album Microservice for Flow App</description>
 
 	<properties>
-		<java.version>11</java.version>
+		<java.version>1.8</java.version>
 		<spring-cloud.version>Hoxton.SR4</spring-cloud.version>
 	</properties>
 

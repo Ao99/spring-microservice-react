@@ -6,12 +6,11 @@ import org.springframework.security.config.annotation.web.configuration.EnableWe
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 
 @EnableWebSecurity
-@Profile("production")
-public class WebSecurityProduction extends WebSecurityConfigurerAdapter{
+@Profile("heroku")
+public class WebSecurityHeroku extends WebSecurityConfigurerAdapter{
 
     @Override
-    protected void configure(HttpSecurity http) throws Exception {
-        
+    protected void configure(HttpSecurity http) throws Exception {        
         http.authorizeRequests().anyRequest().authenticated();
         http.httpBasic();
         http.csrf().disable();

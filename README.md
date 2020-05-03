@@ -1,6 +1,6 @@
 ﻿# spring-rest-microservice
 
-A demo app of Spring REST API with Microservice.
+An App of Spring REST API with Microservice.
 
 ## Business Logic
 Spring Boot, Spring Web, Spring Security
