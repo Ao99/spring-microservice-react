@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
-	<groupId>io.ao9.demoapp.api</groupId>
+	<groupId>io.ao9.flow.api</groupId>
 	<artifactId>flow-config-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>flow-config-server</name>
