@@ -1,6 +1,6 @@
-﻿# spring-rest-microservice
+﻿# Flow
 
-An App of Spring REST API with Microservice.
+An App of Spring Boot Microservice + REST API + React.
 
 ## Business Logic
 Spring Boot, Spring Web, Spring Security
@@ -22,4 +22,4 @@ Elasticsearch, Logstash, Kibana
 
 ## Deployment
 AWS EC2, Docker
-
+Heroku
