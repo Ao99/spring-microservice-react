@@ -1,6 +1,6 @@
 ﻿# Flow
 
-An App of **Spring Boot Microservice** + **REST** API + **React**.
+An App of **Spring Boot Microservice** + **REST** API.
 
 The project has been moved to [ao9-flow](https://github.com/ao9-flow)
 
