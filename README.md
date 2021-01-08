@@ -1,7 +1,7 @@
-﻿# Flow
+﻿# Spring Microservice REST APIs
 
-An App of **Spring Boot Microservice** + **REST** API.
+This is the description repo for the project. The whole project is at [ao9-flow](https://github.com/ao9-flow)
 
-The project has been moved to [ao9-flow](https://github.com/ao9-flow)
+This is a demo project of creating and deploying **microservice** backends providing **REST APIs** with **Java Spring Boot**; implemented Eureka, Zuul, Cloud Config, Feign, RabbitMQ, Elasticsearch, Kibana and Logstash; deployed on both AWS with Docker and Heroku.
 
-All backend microservices and frontend are grouped in the above organization now.
+<img src="https://github.com/Ao99/spring-microservice-rest-api/blob/master/tools.png" alt="Tools">
